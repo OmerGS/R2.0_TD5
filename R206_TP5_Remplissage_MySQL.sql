@@ -5,6 +5,8 @@ DELETE FROM Compte;
 DELETE FROM Agent;
 DELETE FROM Agence;
 
+use bd_r206;
+
 INSERT INTO Agence values (1,'0101010101','1 rue des Magnolias');
 INSERT INTO Agence values (2,'0202020101','2 rue des Fleurs');
 INSERT INTO Agence values (3,'0302020101','18 place de Grenelle');
